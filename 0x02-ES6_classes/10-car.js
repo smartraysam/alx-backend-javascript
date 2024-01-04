@@ -6,11 +6,6 @@ export default class Car {
   }
 
   cloneCar() {
-    const newCar = new Car();
-    const keys = Object.keys(this);
-    for (const key of keys) {
-      newCar[key] = this[key];
-    }
-    return newCar;
+    return new this.constructor(this._brand, this._motor, this._color);
   }
 }
