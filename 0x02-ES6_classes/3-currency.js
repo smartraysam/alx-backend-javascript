@@ -1,5 +1,4 @@
 export default class Currency {
-  // eslint-disable-line
   constructor(code, name) {
     if (typeof code !== 'string') {
       throw new TypeError('code must be a String');
@@ -35,4 +34,4 @@ export default class Currency {
   displayFullCurrency() {
     return `${this._name} (${this._code})`;
   }
-} // eslint-disable-line
+}
