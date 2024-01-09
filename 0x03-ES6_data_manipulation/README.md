@@ -1,6 +1,6 @@
 # 0x03. ES6 data manipulation
 #### `JavaScript` `ES6`
-
+![Alt text](image.png)
 
 ## Resources
 **Read or watch**:
